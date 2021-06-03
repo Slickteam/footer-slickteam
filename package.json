@@ -1,8 +1,8 @@
 {
   "name": "@slickteam/footer-slickteam",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Slickteam webcomponant - Footer",
-  "main": "dist/my-element.es.js",
+  "main": "dist/footer-slickteam.es.js",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/Slickteam/footer-slickteam.git"
@@ -19,7 +19,7 @@
     "slickteam"
   ],
   "exports": {
-    ".": "./dist/my-element.es.js"
+    ".": "./dist/footer-slickteam.es.js"
   },
   "files": [
     "dist"
