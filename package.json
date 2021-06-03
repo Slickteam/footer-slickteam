@@ -1,0 +1,34 @@
+{
+  "name": "footer-slickteam",
+  "version": "0.0.1",
+  "description": "A Slickteam webcomponant - Footer",
+  "main": "dist/my-element.es.js",
+  "license": "MIT",
+  "author": {
+    "email": "ronan.morel@slickteam.fr",
+    "name": "Ronan MOREL",
+    "url": "https://slickteam.fr"
+  },
+  "keywords": [
+    "webcomponent",
+    "ux",
+    "ui",
+    "slickteam"
+  ],
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "vite": "^2.3.3"
+  }
+}
