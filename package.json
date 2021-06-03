@@ -1,9 +1,10 @@
 {
   "name": "@slickteam/footer-slickteam",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Slickteam webcomponant - Footer",
   "main": "dist/footer-slickteam.umd.js",
   "license": "MIT",
+  "type": "module",
   "module": "./dist/footer-slickteam.es.js",
   "repository": {
     "url": "https://github.com/Slickteam/footer-slickteam.git"
