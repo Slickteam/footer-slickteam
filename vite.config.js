@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/footer-slickteam.js',
-      formats: ['es']
+      name: 'FooterSlickteam'
     },
     rollupOptions: {
       external: /^lit-element/
