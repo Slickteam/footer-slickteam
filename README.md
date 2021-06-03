@@ -5,7 +5,7 @@ A web component - Footer
 ## Install
 
 ```bash
-npm install footer-slickteam
+npm install @slickteam/footer-slickteam
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "footer-slickteam",
+  "name": "@slickteam/footer-slickteam",
   "version": "0.0.1",
   "description": "A Slickteam webcomponant - Footer",
   "main": "dist/my-element.es.js",
