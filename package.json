@@ -4,6 +4,9 @@
   "description": "A Slickteam webcomponant - Footer",
   "main": "dist/my-element.es.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Slickteam/footer-slickteam.git"
+  },
   "author": {
     "email": "ronan.morel@slickteam.fr",
     "name": "Ronan MOREL",
