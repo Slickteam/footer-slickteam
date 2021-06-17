@@ -1,5 +1,5 @@
 import { html } from 'lit-html';
-import '../footer-slickteam.js';
+import '../index.js';
 
 export default {
   title: 'FooterSlickteam',

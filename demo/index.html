@@ -13,13 +13,11 @@
 
   <script type="module">
     import { html, render } from 'lit-html';
-    import '../footer-slickteam.js';
+    import '../index.js';
 
-    const title = 'Hello owc World!';
     render(
       html`
-        <footer-slickteam .title=${title}>
-          some more light-dom
+        <footer-slickteam>
         </footer-slickteam>
       `,
       document.querySelector('#demo')
