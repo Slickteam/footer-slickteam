@@ -5,40 +5,48 @@ export default {
   title: 'FooterSlickteam',
   component: 'footer-slickteam',
   argTypes: {
-    title: { control: 'text' },
-    counter: { control: 'number' },
-    textColor: { control: 'color' },
+    textCredit: { control: 'text' },
+    hideTwitterIcon: { control: 'boolean' },
+    urlTwitterIcon: { control: 'text' },
+    hideFacebookIcon: { control: 'boolean' },
+    urlFacebookIcon: { control: 'text' },
+    hideLinkedinIcon: { control: 'boolean' },
+    urlLinkedinIcon: { control: 'text' },
+    hideGithubIcon: { control: 'boolean' },
+    urlGithubIcon: { control: 'text' },
+    hideMediumIcon: { control: 'boolean' },
+    urlMediumIcon: { control: 'text' }
   },
 };
 
-function Template({ title = 'Hello world', counter = 5, textColor, slot }) {
+function Template({
+    textCredit = 'Slickteam ©2017 - 2021',
+    hideTwitterIcon = false,
+    urlTwitterIcon = 'https://twitter.com/SlickteamFR',
+    hideFacebookIcon = false,
+    urlFacebookIcon = 'https://www.facebook.com/SlickteamFR',
+    hideLinkedinIcon = false,
+    urlLinkedinIcon = 'https://www.linkedin.com/company/slickteam',
+    hideGithubIcon = false,
+    urlGithubIcon = 'https://github.com/Slickteam',
+    hideMediumIcon = false,
+    urlMediumIcon = 'https://medium.com/slickteam'
+  }) {
   return html`
     <footer-slickteam
-      style="--footer-slickteam-text-color: ${textColor || 'black'}"
-      .title=${title}
-      .counter=${counter}
-    >
-      ${slot}
-    </footer-slickteam>
+      .textCredit=${textCredit}
+      .hideTwitterIcon=${hideTwitterIcon}
+      .urlTwitterIcon=${urlTwitterIcon}
+      .hideFacebookIcon=${hideFacebookIcon}
+      .urlFacebookIcon=${urlFacebookIcon}
+      .hideLinkedinIcon=${hideLinkedinIcon}
+      .urlLinkedinIcon=${urlLinkedinIcon}
+      .hideGithubIcon=${hideGithubIcon}
+      .urlGithubIcon=${urlGithubIcon}
+      .hideMediumIcon=${hideMediumIcon}
+      .urlMediumIcon=${urlMediumIcon}
+    ></footer-slickteam>
   `;
 }
 
 export const Regular = Template.bind({});
-
-export const CustomTitle = Template.bind({});
-CustomTitle.args = {
-  title: 'My title',
-};
-
-export const CustomCounter = Template.bind({});
-CustomCounter.args = {
-  counter: 123456,
-};
-
-export const SlottedContent = Template.bind({});
-SlottedContent.args = {
-  slot: html`<p>Slotted content</p>`,
-};
-SlottedContent.argTypes = {
-  slot: { table: { disable: true } },
-};
