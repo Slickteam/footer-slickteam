@@ -177,3 +177,5 @@ export class FooterSlickteam extends LitElement {
     `;
   }
 }
+
+window.customElements.define('footer-slickteam', FooterSlickteam);

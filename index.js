@@ -1,5 +1,3 @@
-import { FooterSlickteam } from './src/footer-slickteam.js';
-
-window.customElements.define('footer-slickteam', FooterSlickteam)
+import { FooterSlickteam } from './dist/footer-slickteam.es.js';
 
 export { FooterSlickteam };
