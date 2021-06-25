@@ -3,30 +3,78 @@
   "tags": [
     {
       "name": "footer-slickteam",
-      "description": "A component with a title and an action counter",
+      "description": "A graphic componant which displayed a footer with slickteam's style",
       "properties": [
         {
-          "name": "title",
+          "name": "textCredit",
           "type": "String",
-          "description": "The title of your component",
-          "default": "Hey there"
+          "description": "The title of footer",
+          "default": "Slickteam ©2017 - <current year>"
         },
         {
-          "name": "counter",
-          "type": "Number",
-          "description": "An action counter",
-          "default": 0
+          "name": "hideTwitterIcon",
+          "type": "Boolean",
+          "description": "Hide twitter icon on footer",
+          "default": false
+        },
+        {
+          "name": "urlTwitterIcon",
+          "type": "String",
+          "description": "Set url of Twitter link's icon",
+          "default": "AAA"
+        },
+        {
+          "name": "hideFacebookIcon",
+          "type": "Boolean",
+          "description": "Hide Facebook icon on footer",
+          "default": false
+        },
+        {
+          "name": "urlFacebookIcon",
+          "type": "String",
+          "description": "Set url of Facebook link's icon",
+          "default": "AAA"
+        },
+        {
+          "name": "hideLinkedinIcon",
+          "type": "Boolean",
+          "description": "Hide Linkedin icon on footer",
+          "default": false
+        },
+        {
+          "name": "urlLinkedinIcon",
+          "type": "String",
+          "description": "Set url of Linkedin link's icon",
+          "default": "AAA"
+        },
+        {
+          "name": "hideGithubIcon",
+          "type": "Boolean",
+          "description": "Hide Github icon on footer",
+          "default": false
+        },
+        {
+          "name": "urlGithubIcon",
+          "type": "String",
+          "description": "Set url of Github link's icon",
+          "default": "AAA"
+        },
+        {
+          "name": "hideMediumIcon",
+          "type": "Boolean",
+          "description": "Hide Medium icon on footer",
+          "default": false
+        },
+        {
+          "name": "urlMediumIcon",
+          "type": "String",
+          "description": "Set url of Medium link's icon",
+          "default": "AAA"
         }
       ],
       "events": [],
       "slots": [],
-      "cssProperties": [
-        {
-          "name": "--footer-slickteam-text-color",
-          "description": "Main Text Color",
-          "type": "Color"
-        }
-      ]
+      "cssProperties": []
     }
   ]
 }

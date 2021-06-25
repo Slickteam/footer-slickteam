@@ -1,6 +1,11 @@
-/* eslint-disable class-methods-use-this */
-import { html, css, LitElement } from 'lit-element';
+import { LitElement, html, css } from 'lit-element'
 
+/**
+ * An example element.
+ *
+ * @slot - This element has a slot
+ * @csspart button - The button
+ */
 export class FooterSlickteam extends LitElement {
   static get styles() {
     return css`
@@ -45,7 +50,7 @@ export class FooterSlickteam extends LitElement {
           margin: 0 auto 20px;
         }
       }
-    `;
+    `
   }
 
   static get properties() {
@@ -61,11 +66,11 @@ export class FooterSlickteam extends LitElement {
       urlGithubIcon: { type: String },
       hideMediumIcon: { type: Boolean },
       urlMediumIcon: { type: String }
-    };
+    }
   }
 
   constructor() {
-    super();
+    super()
     this.textCredit = `Slickteam ©2017 - ${new Date().getFullYear()}`;
     this.hideTwitterIcon = false;
     this.urlTwitterIcon = 'https://twitter.com/SlickteamFR';
