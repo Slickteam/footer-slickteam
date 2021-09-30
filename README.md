@@ -76,7 +76,12 @@ Attribute           | Type               | Description
 
 ## Development
 
-### Demoing with Storybook
+### Demo with Storybook
+
+Before running story, you need to generate "built" webcomponent
+```bash
+npm run storybook
+```
 
 To run a local instance of Storybook for your component, run
 ```bash
